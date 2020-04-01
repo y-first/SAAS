@@ -1,0 +1,9 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: System_server
+  datasource:
+    username: root
+    password: 123456
+    url:  jdbc:mysql://localhost:3306/ihrm?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
